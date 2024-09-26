@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { validateEmail } from '../../utils/helper';
 import axiosInstance from '../../utils/axiosInstance';
 import signupBgImg from '../../assets/images/signup-bg-image.jpg';
+
 const SignUp = () => {
 
   const [fullName, setFullName] = useState("")
